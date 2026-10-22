@@ -1,0 +1,62 @@
+:root{
+    --color-principal: rgb(50, 89, 66);
+    --color-fondo: rgb(0, 35, 53);
+    --color-texto: rgb(148, 148, 152);
+    --color-tarjeta: white;
+    --radio: 12px;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0px;
+    padding: 0px;
+}
+
+.encabezado{
+    color: var(--color-principal);
+    color:azure;
+    text-align: center;
+    padding: 40px 16px;
+}
+
+.encabezado h1{
+    font-size: 2.2rem;
+}
+
+.subtitulo{
+    opacity: 0.9;
+    margin-bottom: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+nav a{
+    color:var(--color-fondo);
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: rgb(255, 240, 240);
+    border-radius: 99px;
+}
+
+nav a:hover{
+    background-color: gray;
+}
+
+
+.tarjeta{
+    background-color: var(--color-tarjeta);
+    border-radius: var(--radio);
+    padding: 5px;
+    box-shadow: 0 2px 8px rgb(96, 141, 154);
+}
+
+.tarjeta h2{
+    color: var(--color-principal);
+    margin-bottom: 8px;
+}
